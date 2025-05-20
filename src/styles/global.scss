@@ -1,6 +1,17 @@
+@use './settings.scss';
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
+  color: settings.$text;
+}
+
+body{
+  background-color: settings.$background;
+}
+
+.h1{
+  font-size: 36px;
 }
